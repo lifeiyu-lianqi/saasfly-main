@@ -1,5 +1,10 @@
 {
   "github": {
     "silent": true
-  }
+  },
+  "buildCommand": "bun run build --filter=@saasfly/nextjs",
+  "outputDirectory": "apps/nextjs/.next",
+  "installCommand": "bun install",
+  "framework": "nextjs",
+  "rootDirectory": "apps/nextjs"
 }
